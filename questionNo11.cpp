@@ -7,7 +7,7 @@ float returnNextRandomNumber(float seedVal)
     if ((seedVal - 30.0) < 0.0)
         return 15.0 + 225 * ((seedVal / 300.0) - 0.0000001);
     if ((seedVal - 45.0) < 0.0)
-        return 30.0 + 12.5 * ((seedVal / 300.0) - 0.06666666);
+        return 30.0 + 112.5 * ((seedVal / 300.0) - 0.06666666);
     if ((seedVal - 60.0) < 0.0)
         return 45.0 + 90 * ((seedVal / 300.0) - 0.13333333);
     if ((seedVal - 90.0) < 0.0)
