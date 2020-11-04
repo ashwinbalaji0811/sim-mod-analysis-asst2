@@ -4,14 +4,14 @@ This repository has solutions for the Assignment 2 of the course Simulation, Mod
 
 ## A Quick Note
 
-All the programs here are written in compliance with `C++ 14 version`. A standard gcc compiler will do great. Else please use [this online compiler](https://www.programiz.com/cpp-programming/online-compiler/) to verify the code.
+All the programs here are written in compliance with `C++ 14 version`. A standard `gcc compiler` will do great. These programs will **NOT** run in MS Turbo C++ Compiler. Else please use [this online compiler](https://www.programiz.com/cpp-programming/online-compiler/) to verify the code.
 
 # Logs
 
 ## Question Number 2
 The triangular PDF's X value is randomly generated and it's mean is computed assuming -infinity to +infifnity as -10 to +10. Changing this range can affect the resulting mean of the given PDF. But increasing the range will help converge the mean value more closer to theoretical value. The program can be found in `questionNo02.cpp`.
 
-## Question 11
+## Question Number 11
 The table is generated using spreadsheet `question11.xlsx` and the data is fed as a separate function in C++ [`questionNo11.cpp`] to simulate the process and genrate the random values.
 
 ## Question Number 13
